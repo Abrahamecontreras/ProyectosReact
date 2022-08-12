@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 499px) {
+  .to-do-boton {
+    margin-top: 20px;
+  }
+}
+
 html,
 body  {
   color: white;
@@ -36,12 +42,15 @@ h1  {
 }
 
 .freecodecamp-logo  {
-  width: 400px;
+  max-width: 400px;
+  min-width: 280px;
   height: 50px;
 }
 
+
 .to-do-list-principal {
   width: 600px;
+  min-width: 280px;
   min-height: 500px;
   background-color: #d0d0d5;
   padding: 25px;
